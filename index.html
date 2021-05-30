@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Calculadora Web</title>
+     <link rel="stylesheet" href="styles.css">
+     <script type="module" async src="functionality/app.js"></script>
+</head>
+
+<body>
+     <div class="">
+          <div class="calculator-container">
+               <h1>Calculadora Web</h1>
+               <div style="margin: auto;">
+                    <select id="select">
+                         <option>Sumar</option>
+                         <option>Restar</option>
+                         <option>Multiplicar</option>
+                         <option>Dividir</option>
+                    </select>
+               </div>
+               <div style="padding-top: 10px;">
+                    <input type="number" placeholder="Ingresa tu Valor 1" style="margin-top: 10px; padding: 6px;"
+                         id="input1"> <br>
+                    <input type="number" placeholder="Ingresa tu Valor 2" style="margin-top: 10px; padding: 6px;"
+                         id="input2"> <br>
+                    <input type="text" readonly id='result' style="margin-top: 10px; padding: 2px;">
+               </div>
+               <div>
+                    <button style=" margin-top: 10px; padding: 6px;" id='calculate-button'>calcular</button>
+               </div>
+          </div>
+          <div class="history-container">
+               <h2>Historial</h2>
+               <ol id="li-container">
+                    <!-- <li style="position: relative;">
+                         <span>2 + 2 = 4</span>
+                         <button style="position:absolute; right: 2px;">X</button>
+                    </li> -->
+               </ol>
+          </div>
+     </div>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+body {
+     background-color: lightskyblue;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+
+.calculator-container {
+     background-color: white;
+     border: 1.5px solid grey;
+     padding: 2em;
+}
+
+.calculator-container * {
+     text-align: center;
+}
+
+.history-container {
+     margin-top: 20px;
+     background-color: white;
+     border: 1.5px solid grey;
+     padding: 0px 0.5em;
+}
+
+.history-container * {
+     text-align: center;
+}
+
+ol {
+     overflow: auto;
+     height: 100px;
+}
+
+li {
+     background-color: rgb(199, 199, 199);
+     margin: 5px 0px;
+     padding: 3px;
+     font-weight: bolder;
+}
